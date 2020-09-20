@@ -1203,6 +1203,7 @@ div.author h5{
     background-image: linear-gradient(blue, darkblue);
     width: 97%;
     padding: 0;
+    border: 2px solid white;
   }
   .navbtn-foot:last-child:enabled{
     background-image: linear-gradient(red, black);
