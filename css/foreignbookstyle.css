@@ -1072,30 +1072,15 @@ form.content{
         display: none;
         margin: 5% auto;
     }
-  .navbtn{
-      background-color: gray;
-     text-align:center;
-     color:white;
-     font-weight:bold;
-     border:none;
-      width:100%;
-    display:block;
-     }
-     .navbtn:hover{
-         background-color:lightgreen;
-
-     }
     .navbtn-foot{
-        display: block; 
-        background-color:blue;
-        border: none; 
-        display: block; 
-        background-color:blue;
-        border: none;
-        width: 97%;
-        padding: 0;
+      display: block; 
+      background-image: linear-gradient(blue, darkblue);
+      width: 97%;
+      padding: 0;
     }
-    
+    .navbtn-foot:last-child:enabled{
+      background-image: linear-gradient(red, black);
+    }
     div.watched{
         display: none;
     } 
@@ -1120,14 +1105,14 @@ form.content{
 
     .book_on_off{
         display: block;
-   background-color: darkblue;
+        background-color: darkblue;
         width:90%;
         margin: 0 5% ;
         color:white;
     }
     .book_on_off1{
         display: block;
-      background-color: darkblue;
+        background-color: darkblue;
         width:100%;
         margin: 0 auto;
         color:white;
@@ -1264,16 +1249,18 @@ div.login{
   }
   .navbtn{
     display: block;
-    border:none;
-    background-color: darkblue;
+    background-image: linear-gradient(darkblue, blue);
     width: 100%;
+    border: 2px solid orangered;
     margin: 0 auto;
-    border: 15px;
     color: white;
     font-weight: bold;
   }
-  .navbtn:hover{
-    background-color: lightgreen;
+  .navbtn:last-child:enabled{
+    background-image: linear-gradient(red, black);
+  }
+  .navbtn:nth-child(1):enabled{
+    background-image: linear-gradient(red, black);
   }
   .subcontent{
     padding: 1% 1px;
@@ -1298,15 +1285,9 @@ div.login{
   ul.books>li{
     padding:0;
   }
-
-
-
  div#ht{
     display: none;
 }
- 
-
-
  
  #scrollTop > img{
      width:35px;
@@ -1417,22 +1398,5 @@ div.xemthem{
     height: 100px;
   }
   /* endl */
-  .navbtn{
-    display: block;
-    border:none;
-    background-color: darkblue;
-    width: 100%;
-    margin: 0 auto;
-    border: 15px;
-    color: white;
-    font-weight: bold;
-  }
-  .navbtn:last-child:hover{
-    background-color: lightgreen;
-  }
-
-
-
-
 }
 

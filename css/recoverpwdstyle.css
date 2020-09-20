@@ -936,25 +936,15 @@ div.author h5{
       text-align: center;
       margin: 5% auto;
     }
-.navbtn{
-    background-color: gray;
-   text-align:center;
-   color:white;
-   font-weight:bold;
-   border:none;
-    width:100%;
-    display:block;
-   }
-   .navbtn:hover{
-       background-color:lightgreen;
-   }
-  .navbtn-foot{
-    display: block; 
-    background-color:blue;
-    border: none;
-    width: 97%;
-    padding: 0;
-  }
+    .navbtn-foot{
+      display: block; 
+      background-image: linear-gradient(blue, darkblue);
+      width: 97%;
+      padding: 0;
+    }
+    .navbtn-foot:last-child:enabled{
+      background-image: linear-gradient(red, black);
+    }
   div.body>div{
     padding-left: 10px;
     width: 100%;
@@ -1011,20 +1001,21 @@ div.author h5{
     }
     .navbtn{
       display: block;
-      border:none;
-      background-color: darkblue;
+      background-image: linear-gradient(darkblue, blue);
       width: 100%;
+      border: 2px solid orangered;
       margin: 0 auto;
-      border: 15px;
       color: white;
       font-weight: bold;
     }
-    .navbtn:hover{
-      background-color: lightgreen;
+    .navbtn:last-child:enabled{
+      background-image: linear-gradient(red, black);
+    }
+    .navbtn:nth-child(1):enabled{
+      background-image: linear-gradient(red, black);
     }
     .subcontent{
       padding: 1% 1px;
-      
     }
     ul.subcontent>li{
       width: 47.5%;

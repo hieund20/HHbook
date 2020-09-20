@@ -1077,25 +1077,15 @@ form.content{
         margin: 5% auto;
         border: none;
     }
-  .navbtn{
-      background-color: gray;
-     text-align:center;
-     color:white;
-     font-weight:bold;
-     border:none;
-      width:100%;
-    display:block;
-     }
-     .navbtn:hover{
-         background-color:lightgreen;
-
-     }
     .navbtn-foot{
-       display: block; 
-      background-color:blue;
-      width:97%;
+      display: block; 
+      background-image: linear-gradient(blue, darkblue);
+      width: 97%;
+      padding: 0;
     }
-    
+    .navbtn-foot:last-child:enabled{
+      background-image: linear-gradient(red, black);
+    }
     div.watched{
         display: none;
     } 
@@ -1271,16 +1261,18 @@ div.login{
   }
   .navbtn{
     display: block;
-    border:none;
-    background-color: darkblue;
+    background-image: linear-gradient(darkblue, blue);
     width: 100%;
+    border: 2px solid orangered;
     margin: 0 auto;
-    border: 15px;
     color: white;
     font-weight: bold;
   }
-  .navbtn:hover{
-    background-color: lightgreen;
+  .navbtn:last-child:enabled{
+    background-image: linear-gradient(red, black);
+  }
+  .navbtn:nth-child(1):enabled{
+    background-image: linear-gradient(red, black);
   }
   .subcontent{
     padding: 1% 1px;
@@ -1424,18 +1416,5 @@ div.xemthem{
     width: 90% !important;
   }
   /* endl */
-  .navbtn{
-    display: block;
-    border:none;
-    background-color: darkblue;
-    width: 100%;
-    margin: 0 auto;
-    border: 15px;
-    color: white;
-    font-weight: bold;
-  }
-  .navbtn:last-child:hover{
-    background-color: lightgreen;
-  }
 }
 
