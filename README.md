@@ -1,1 +1,2 @@
-# HHbook
+- Static web page using HTML, CSS, Js
+- Link: https://hieund20.github.io/HHbook/
